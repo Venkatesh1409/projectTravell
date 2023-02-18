@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../aboutus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../../../java script/nav.css">
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+}
+#Header{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px black;
+}
+#headervid{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+}
+#headerHeading{
+    position: absolute;
+    z-index: 1;
+    font-size: 90px;
+    letter-spacing: 25px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+#iconsofsocial
+{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    right: 20px;
+    bottom: 10px;
+}
+i{
+    padding-left: 20px;
+    color: white;
+}
+i:hover{
+    color: rgb(184, 248, 248)
+}
+#webbody
+{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(pink,purple,black);
+}
+#address
+{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    width: 44%;
+    height: 300px;
+    float: left;
+    background-color: rgb(190, 236, 221);
+    box-shadow: 0px 0px 10px black;
+    border-radius:10px ;
+}
+#maps
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 90%;
+    right: 5%;
+    width: 44%;
+    height: 300px;
+    background-color: rgb(190, 236, 221);
+    box-shadow: 0px 0px 10px black;
+    border-radius:10px ;
+    overflow:hidden
+}
+iframe
+{
+    width: 100%;
+    height: 310px;
+}
+iframe:hover
+{
+    width: 120%;
+    height: 330px;
+}
+#addheading{
+    padding-top: 20px;
+    text-align: center;
+    color: purple;
+}
+#addpara
+{
+    width: 90%;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-left: 20px;
+    text-align: center;
+}
+#footer
+{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(2, 42, 2);
+}
+#iconsofsocialfooter
+{
+    width: 250px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    top: 32px;
+    float: right;
+}
+#cpymessage
+{
+    float: left;
+    color: white;
+    padding-top: 40px;
+    font-size: 24px;
+}
+#addpara1
+{
+    width: 100%;
+    height: 300px;
+}
+#addaddress1
+{
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    top: 90%;
+    
+}
+#ram
+{
+    width: 350px;
+    height: 400px;
+    margin: 80px;
+    float: right;
+    border-color:white;padding: -20px;
+}
+.ra
+{
+    font-size: 20px;
+    border-radius: 60px;
+}
+    </style>
+</head>
+<body>
+    <div id="Header">
+        <video id="headervid" src="C:\Users\abcd\Downloads\video.mp4" autoplay muted loop></video>
+        <h1 id="headerHeading">Lets Travel...</h1>
+        <div id="iconsofsocial">
+            <a href="https://www.favebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-snapchat"></i></a>
+        </div>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="#">Home</a></li>
+            <li class="li"id="sublistplace">places
+                <ul id="sublist">
+                    <li class="sli">India</li>
+                    <li class="sli">Dubia</li>
+                    <li class="sli">Srilanka</li>
+                    <li class="sli">thailand</li>
+                    <li class="sli">korea</li>
+                </ul>
+            </li>
+            <li class="li"><a href="#">info</a></li>
+            <li class="li"><a href="#">Logout</a></li>
+        </ul>
+    </div>
+    <div id="webbody">
+        <div id="address">
+         <h1 id="addheading">Lets travel.pvt.ltm</h1>
+         <p id="addpara">
+            F9VR+8H2, Ashok Nagar, Kukatpally Housing Board Colony, Kukatpally, Hyderabad, Telangana 500085
+         </p>
+        </div>
+        <div id="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16531.479062165185!2d78.4026519657802!3d17.503320248375218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9186c9216501%3A0x5b92f2e1fd8fc012!2sJawaharlal%20Nehru%20Technological%20University%20Hyderabad!5e0!3m2!1sen!2sin!4v1674477114570!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="iconsofsocialfooter">
+            <a href="https://www.favebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-snapchat"></i></a>
+        </div>
+        <div>
+            <i id="cpymessage"class="fa-regular fa-copyright"></i>
+            <span id="cpymessage">This copyrightbelongs to  TEWE</span>
+        </div>
+    </div>
+</body>
+</html>
